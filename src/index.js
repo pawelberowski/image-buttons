@@ -1,3 +1,4 @@
+import "./styles.css";
 import { renderButtons } from "./renderButtons";
 
 const images = [

@@ -1,4 +1,4 @@
-const loadingDisplay = document.querySelector(".loading-display");
+export const loadingDisplay = document.querySelector(".loading-display");
 export function getImageElementWhenLoaded(imageSource) {
   return new Promise(function (resolve) {
     const imageElement = document.createElement("img");
