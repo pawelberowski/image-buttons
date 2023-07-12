@@ -1,11 +1,11 @@
 export function wait(time) {
-  return new Promise(function(resolve, reject) {
-    if (typeof time !== 'number') {
+  return new Promise(function (resolve, reject) {
+    if (typeof time !== "number") {
       return reject();
     } else {
-      setTimeout(function() {
+      setTimeout(function () {
         return resolve();
-      }, time)
+      }, time);
     }
-  })
+  });
 }

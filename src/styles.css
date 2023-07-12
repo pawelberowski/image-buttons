@@ -1,3 +1,15 @@
 .hidden {
   display: none;
 }
+
+img {
+  opacity: 1;
+  transition: opacity 2s;
+  /*width: 600px;*/
+  /*height: 800px;*/
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 2s;
+}
